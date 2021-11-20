@@ -63,3 +63,7 @@ NA : [13]
 
 **Run the project Using:**
 python3 SortingHat.py
+
+**Assumptions**
+Class will be always with of A/B
+Food preferences will be always NV/V
