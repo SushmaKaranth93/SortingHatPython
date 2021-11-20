@@ -22,8 +22,8 @@ print(studentData)
 
 # store student records
 for student in studentData:
-    studentRegisterData.append(dict({'registerNumber': student[0], 'batch': student[1], 'preference': student[2]}))
-
+    if not any(d['registerNumber'] == student[0] for d in studentRegisterData):
+        studentRegisterData.append(dict({'registerNumber': student[0], 'batch': student[1], 'preference': student[2]}))
 print(studentRegisterData)
 
 # sort the student based on criteria
