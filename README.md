@@ -62,7 +62,7 @@ ANV : [6,8,11]
 NA : [13]
 
 **Run the project Using:**
-python3 SortingHat.py
+python3 sortinghat.py
 
 **Assumptions**
 Class will be always with of A/B
